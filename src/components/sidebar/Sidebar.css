@@ -1,0 +1,86 @@
+.Sidebar {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    background-color: rgb(126, 34, 40);
+    padding: 25px 15px;
+}
+
+.Sidebar img {
+    width: 25px;
+}
+
+.Sidebar .menu {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.Sidebar .new-chat {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    background-color: rgb(126, 34, 40);
+    border-radius: 50px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.Sidebar .new-chat:hover {
+    background-color: rgb(220, 220, 220);
+    color: rgb(18, 18, 18);
+}
+
+.Sidebar .recent {
+    display: flex;
+    flex-direction: column;
+}
+
+.Sidebar .recent-title {
+    margin: 30px 0 20px;
+    color: rgb(255, 255, 255);
+}
+
+.Sidebar .recent-entry {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    border-radius: 50px;
+    color: rgb(255, 255, 255); /* Default color for text */
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+
+.Sidebar .recent-entry:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(50, 50, 50); /* Adjusted color for hover state */
+}
+
+.Sidebar .bottom {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto; /* Pushes the bottom section to the end of the sidebar */
+    gap: 15px; /* Adds spacing between items in the bottom section */
+    align-items: left; /* Ensures items are centered horizontally */
+}
+
+.Sidebar .bottom-item {
+    padding: 10px; /* Adds padding for better clickability */
+    border-radius: 50px; /* Matches the style of other clickable elements */
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    color: rgb(255, 255, 255); /* Default color */
+}
+
+.Sidebar .bottom-item:hover {
+    background-color: rgb(220, 220, 220); /* Hover effect */
+    color: rgb(50, 50, 50); /* Change text color on hover */
+}
+
+
+
